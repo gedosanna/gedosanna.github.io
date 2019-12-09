@@ -30,13 +30,13 @@ footer {
     flex-basis: 100%;
 }
 .aside, 
-section {
+.text {
     height: 300px;
 }
 .aside {
     flex-basis: 25%;
 }
-section {
+.text {
     flex-basis: 50%;
     background-color: #80b3ff;
 }

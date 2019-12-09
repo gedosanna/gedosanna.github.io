@@ -1,0 +1,51 @@
+@media all and (max-width: 1170px) {
+    .container {
+        margin-top: -20px;
+    }
+    .container .picture-one {
+        opacity: 0;
+        height: 0;
+    }
+    .container .picture-two {
+        opacity: 1;
+        height: 70vh;
+    } 
+    .container .text-container {
+        margin: 5% 30px 0 0;
+        right: 0;
+        height: 30%;
+    }
+    .container .text-container .text h1:first-of-type {
+        font-size: 18px;
+    }
+    .container .text-container .text h1:last-of-type {
+        font-size: 30px;
+    }
+}
+@media all and (max-width: 992px) {
+    .container {
+        margin-top: 0;
+    }
+    .container .picture-one {
+        opacity: 1;
+        height: 50vh;
+    }
+    .container .picture-two {
+        opacity: 0;
+        height: 0;
+    }
+    .container .text-container {
+        position: unset;
+        margin: 0
+    }
+    .container .text-container .text {
+        text-align: center;
+        width: 100%;
+    }
+    .container .text-container .text h1 {
+        color: black;
+    }
+    .container .text-container .text h1:first-of-type {
+        margin-top: 0;
+    }
+}

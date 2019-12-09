@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    position: relative;
+}
+.container img {
+    object-fit: cover;
+    width: 100%;
+}
+.container .picture-one {
+    height: 100vh;
+}
+.container .picture-two {
+    opacity: 0;
+    height: 0;
+}
+.container .text-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+.container .text-container .text h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0;
+}
+.container .text-container .text h1:first-of-type {
+    font-size: 24px;
+}
+.container .text-container .text h1:last-of-type {
+    font-size: 36px;
+}

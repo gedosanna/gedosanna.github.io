@@ -8,10 +8,13 @@ document.getElementById('oblicz').addEventListener('click', function(){
         if(employees[i].style.backgroundColor === 'red') employees[i].style.backgroundColor = '';
         let hours = employees[i].getElementsByClassName('czas')[0].value;
         let payRate = employees[i].getElementsByClassName('stawka')[0].value;
-        let salary = hours * payRate;
+        let salary = 0;
         let salaryField = employees[i].getElementsByClassName('wyplata')[0];
         if(hours > 160) {
-            salary += (hours - 160) * (payRate * 2);
+            salary = (160 * payRate) + ((hours - 160) * (payRate * 2));
+        }
+        else {
+            salary = hours * payRate;
         }
         salaryField.innerText = salary;
         if(hours < 100) {

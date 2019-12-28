@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+header, 
+section,
+footer {
+    text-align: center;
+}
+section {
+    padding: 80px 20%;
+}
+.title {
+    text-transform: uppercase;
+    margin: 0;
+}
+.text-under-title {
+    font-weight: normal;
+    margin: 0 0 30px 0;
+    font-size: 16px;
+}
+.dark {
+    color: #3c4761;
+}
+hr {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 8%;
+    border-bottom: 2px solid #c8d9e5;
+}
+#home {
+    background-color: #87509c;
+    padding: 20px 20% 70px 20%;
+    color: white;
+}
+#home nav {
+    text-align: right;
+}
+#home nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 15px;
+    color: white;
+}
+#home nav a:hover {
+    background-color: #643a79;
+}
+#home h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#home button {
+    background-color: #eb7d4b;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-bottom: 4px solid #c46336;
+}
+#team {
+    background-color: #e7f1f8;
+}
+#team .person {
+    width: 24%;
+    display: inline-block;
+}
+#team .person .image-container {
+    height: 100px;
+    width: 100px;
+    background-color: #696969;
+    border-radius: 50%;
+    margin: auto;
+}
+#team .person h4 {
+    text-transform: uppercase;
+    margin: 5px 0 0 0;
+    color: #3c4761;
+    font-weight: bold;
+}
+#team .person h5 {
+    margin: 0;
+    color: #55c2e9;
+    font-weight: normal;
+}
+#team .person p {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #3c4761;
+}
+#team .person .social-media {
+    margin-top: 15px;
+}
+#team .person .social-media a {
+    background-color: #c8d9e5;
+    color: white;
+    border-radius: 50%;
+    padding: 1% 4%;
+}
+#team .person .social-media a:first-of-type {
+    padding: 1% 5%;
+}
+#skills .skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#skills .skills-container .skill-container {
+    flex-basis: 25%;
+}
+#skills .skills-container .skill-container .skill {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 6px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skills .skills-container .skill-container .blue {
+    border-color: #34b7eb;
+}
+#skills .skills-container .skill-container .pink {
+    border-color: #dc4481;
+}
+#skills .skills-container .skill-container .green {
+    border-color: #17c5aa;
+}
+#skills .skills-container .skill-container .orange {
+    border-color: #ec7d4f;
+}
+#skills .skills-container .skill-container .skill .percent {
+    font-size: 30px;
+    color: #3c4761;
+}
+#skills .skills-container .skill-container .technology {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #3c4761;
+    font-weight: bold;
+}
+#skills .skills-container .skill-container .capitalize {
+    text-transform: capitalize;
+}
+#about {
+    background-color: #d74680;
+    color: white;
+}
+#about hr {
+    border-bottom: 2px solid #b73c6d;
+}
+#about .text-under-title {
+    color: #f3f8fa;
+}
+#about .opinions-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .opinions-container .opinion-container {
+    flex-basis: 50%;
+    text-align: left;
+    margin: 20px 0;
+}
+#about .opinions-container .opinion-container:nth-of-type(1),
+#about .opinions-container .opinion-container:nth-of-type(3) {
+    padding-right: 10px;
+}
+#about .opinions-container .opinion-container:nth-of-type(2),
+#about .opinions-container .opinion-container:nth-of-type(4) {
+    padding-left: 10px;
+}
+#about .opinions-container .opinion-container:nth-of-type(1),
+#about .opinions-container .opinion-container:nth-of-type(2) {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#about .opinions-container .opinion-container:nth-of-type(3),
+#about .opinions-container .opinion-container:nth-of-type(4) {
+    margin-top: 10px;
+}
+#about .opinions-container .opinion-container .client-image-container {
+    background-color: #787878;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+}
+#about .opinions-container .opinion-container .opinion {
+    float: right;
+    width: calc(100% - 100px);
+    margin-top: 0;
+    color: #f3f8fa;
+}
+#about .opinions-container .opinion-container .name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#about .opinions-container .opinion-container .name,
+#about .opinions-container .opinion-container .position {
+    float: right;
+    padding-left: 100px;
+    margin: 0;
+    width: 100%;
+}
+#about .opinions-container .opinion-container .position {
+    color: #ffdd99;
+}
+#contact {
+    background-color: #3c5499;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: white;
+}
+#contact .text-under-title {
+    color: #f3f8fa;
+}
+#contact form {
+    display: flex;
+    flex-wrap: wrap;;
+}
+#contact hr {
+    border-bottom: 2px solid #273a71;
+}
+#contact form [name='name'],
+#contact form [name='email'],
+#contact form [name='message'] {
+    background-color: #223777;
+    border: 0;
+    padding: 8px;
+}
+#contact form [name='name'] {
+    flex-basis: 49%;
+    margin-right: 1%;
+}
+#contact form [name='email'] {
+    flex-basis: 49%;
+    margin-left: 1%;
+} 
+#contact form [name='message'] {
+    flex-basis: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 150px;
+} 
+#contact form [type='submit'] {
+    margin-top: 20px;
+    padding: 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #55c2e9;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 4px solid #3a90af;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer {
+    padding: 20px 25%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #223777;
+    flex-wrap: wrap;
+}
+footer a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    flex-basis: calc(100%/6);
+}
+footer a:hover {
+    background-color: #55c2e9;
+}

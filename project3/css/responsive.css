@@ -1,0 +1,149 @@
+@media all and (max-width: 1024px) {
+    section,
+    #contact {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    #home,
+    footer {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+}
+@media all and (max-width: 850px) {
+    section,
+    #contact {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #home,
+    footer {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
+@media all and (max-width: 700px) {
+    #team .person {
+        width: 49%;
+    }
+    #team .person:nth-of-type(1),
+    #team .person:nth-of-type(2) {
+        margin-bottom: 30px;
+    }
+    #about .opinions-container .opinion-container {
+        flex-basis: 100%;
+    }
+    #about .opinions-container .opinion-container:nth-of-type(1) {
+        margin-bottom: 15px;
+        margin-top: 0;
+        padding: 0;
+    }
+    #about .opinions-container .opinion-container:nth-of-type(2),
+    #about .opinions-container .opinion-container:nth-of-type(3) {
+        margin: 15px 0;
+        padding: 0;
+    }
+    #about .opinions-container .opinion-container:nth-of-type(4) {
+        margin-top: 15px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+}
+@media all and (max-width: 568px) {
+    #home h1 {
+        font-size: 28px;
+    }
+    #home nav {
+        text-align: center;
+    }
+    #home nav a {
+        font-size: 15px;
+        padding: 0 10px
+    }
+    #skills .skills-container .skill-container {
+        flex-basis: 50%;
+    }
+}
+@media all and (max-width: 500px) {
+    #home h1 {
+        font-size: 26px;
+    }
+    .text-under-title {
+        font-size: 14px;
+    }
+    footer a {
+        flex-basis: calc(100%/3);
+    }
+}
+@media all and (max-width: 460px) {
+    #home nav a {
+        padding: 0 6px
+    }
+    #contact form [name='name'] {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #contact form [name='email'] {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+}
+@media all and (max-width: 414px) {
+    .title {
+        font-size: 20px;
+    }
+    #home {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #home nav {
+        background-color: #87509c;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        padding: 5px 0;
+    }
+    #home nav a {
+        font-size: 13px;
+    }
+    #home h1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 40px;
+    }
+}
+@media all and (max-width: 370px) {
+    section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    button, 
+    #contact form [type='submit'] {
+        font-size: 10px;
+    }
+    #home h1 {
+        font-size: 24px;
+    }
+    #team .person {
+        width: 100%;
+    }
+    #team .person:nth-of-type(3) {
+        margin-bottom: 30px;
+    }
+    #about .opinions-container .opinion-container .client-image-container {
+        display: block;
+        margin: auto;
+    }
+    #about .opinions-container .opinion-container .opinion {
+        width: 100%;
+        text-align: center;
+    }
+    #about .opinions-container .opinion-container .name,
+    #about .opinions-container .opinion-container .position {
+    padding-left: 0;
+    text-align: center;
+    }
+}

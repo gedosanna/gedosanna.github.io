@@ -1,0 +1,30 @@
+.skills {
+    text-align: center;
+    font-family: 'Gayathri', sans-serif;
+    padding: 80px 100px;
+    color: rgb(129, 125, 125);
+}
+.skills h1 {
+    font-size: 34px;
+    margin: auto;
+}
+.skills hr {
+    width: 30%;
+}
+.skills .icons-container .icon-container {
+    margin: 20px 0;
+}
+.skills .icons-container .icon-container .icon {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(238, 227, 227);
+    border-radius: 50%;
+    margin: auto;
+}
+.skills .icons-container .icon-container .icon i {
+    font-size: 40px;
+    color: rgb(221, 148, 12);
+}
+.skills .icons-container .icon-container p {
+    margin-top: 10px;
+}
